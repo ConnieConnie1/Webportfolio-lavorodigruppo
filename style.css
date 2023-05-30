@@ -1,9 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Heebo', sans-serif;
+    
 }
+:root {
+    --colore-titolo:  #21243D;
+    --colore-bottone: #FF6464;
+}
+
 nav {
     display: flex;
     justify-content: end;
-    margin: ;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
+.immagine-profilo{
+    /* width: 10rem;
+    height: 10rem; */
+    display: flex;
+    justify-content: center;
+    }
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    text-align: center;
+    margin: 1.5rem;
+    color: var(--colore-titolo);
+
+}
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+input {
+    width: 16rem;
+    height: 3rem;
+    background: var(--colore-bottone);
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    cursor: pointer;
+    border: none;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.recent-post {
+    background-color: #EDF7FA;
+    
+}
+
+.recent-post h3 {
+    font-size: 1.2rem;
+    line-height: 5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    margin: 0 1rem;
+    padding: 1.5rem;
+}
+.view-all {
+    display: none;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: var(--colore-titolo);
+}
+
+article div{
+    display:flex;
+    justify-content: start;
+    gap: 0;
+    
+
+}
+
+
