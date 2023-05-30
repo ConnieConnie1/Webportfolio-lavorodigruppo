@@ -39,6 +39,12 @@ p {
     font-size: 1rem;
     line-height: 2rem;
 }
+
+.paragrafo1{
+    margin: 1.5rem;
+    text-align: center;
+}
+
 input {
     width: 16rem;
     height: 3rem;
@@ -72,7 +78,7 @@ h3 {
 article {
     background-color: white;
     margin: 0 1.5rem 1rem 1.5rem;
-    padding: 0;
+    padding: 1rem;
 
     
 }
