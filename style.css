@@ -10,6 +10,7 @@
     --colore-bottone: #FF6464;
     --colore-2020: #142850;
     --color-dashboard:#00A8CC;
+    
 }
 
 nav {
@@ -18,6 +19,29 @@ nav {
     margin: 1rem;
     margin-bottom: 2rem;
 }
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 1.5rem;
+    display: none;
+    
+}
+
+.home:hover{
+    color: var(--colore-bottone) ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    
+}
+
 .immagine-profilo{
     /* width: 10rem;
     height: 10rem; */
@@ -152,4 +176,30 @@ footer ul{
 footer p{
     font-size: 0.8rem;
     text-align: center;
+}
+
+
+/* MEDIA QUERYS */
+
+@media screen and (min-width:1200px)
+{
+    nav img {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        margin-right:1rem ;
+       }
+
+    .intestazione{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
