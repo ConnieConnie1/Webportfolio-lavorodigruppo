@@ -16,8 +16,11 @@
 nav {
     display: flex;
     justify-content: end;
-    margin: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem 2rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 1rem 0;
 }
 
 nav ul {
